@@ -119,7 +119,7 @@ export function SignInForm({ className, ...props }: SignInFormProps) {
                 )}
               />
             </div>
-            <Button type="submit" disabled={isLoading}>
+            <Button disabled={isLoading}>
               {isLoading && <Spinner className="mr-2 h-4 w-4 animate-spin" />}
               Sign In
             </Button>
